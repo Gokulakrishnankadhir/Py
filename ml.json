@@ -1,0 +1,39 @@
+{
+
+ "face_count": {
+
+  "face_count": 1
+
+ },
+
+ "test": {
+
+  "connection": "Hello Firebase"
+
+ },
+
+ "vehicle_count": {
+
+  "vehicle_count": 10
+
+ },
+
+ "vehicle_data": {
+
+  "Acceleration": 0.98,
+
+  "Brake Pressure": 0,
+
+  "Car ID": "CAR_001",
+
+  "Demand Count": 1,
+
+  "Latitude": "51.509865",
+
+  "Longitude": "-0.118092.",
+
+  "RPM": 3
+
+ }
+
+}

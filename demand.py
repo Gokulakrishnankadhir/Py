@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # ------------------------------ Configuration ------------------------------
 API_KEY = ''  # Replace with your actual Google API key
-MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoiZ29rdWxha3Jpc2huYW4tNjEwIiwiYSI6ImNtMjdkNWxpaDFiZWoyaXM2czRhZTY0cGoifQ.hv7LUuaUken_pJ88fsvYKA'  # Replace with your Mapbox access token
+MAPBOX_ACCESS_TOKEN = ''  # Replace with your Mapbox access token
 
 # Create the static directory if it doesn't exist
 if not os.path.exists('static'):

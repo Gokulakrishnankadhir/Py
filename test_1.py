@@ -10,8 +10,8 @@ app = Flask(__name__)
 socketio = SocketIO(app, async_mode='gevent')  # Using gevent as async mode
 
 # Firebase Realtime Database setup
-FIREBASE_URL = 'https://ml-transport-1-default-rtdb.firebaseio.com/vehicle_data.json'  # Replace with your Firebase URL
-FIREBASE_SECRET = 'ItQZCGVw8HvBMKM03oVJKRfZAWAi6112wUHIwdXk'  # Replace with your Firebase secret key
+FIREBASE_URL = '.firebaseio.com/vehicle_data.json'  # Replace with your Firebase URL
+FIREBASE_SECRET = ''  # Replace with your Firebase secret key
 
 # Function to get Firebase data
 def get_firebase_data():
